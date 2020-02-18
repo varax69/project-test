@@ -1,0 +1,62 @@
+/*Banner homepage */
+.first-section{
+    
+    /* z-index: 1;
+    top: 1080px;
+    left: 0px;
+    width: 1920px;
+    height: 1180px;
+    background: transparent linear-gradient(141deg, #008AE5 0%, #032D93 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.4; */
+
+}
+
+.container{
+    max-width: 100%;
+}
+
+.nav-header{
+    display: flex;
+}
+
+.banner-home{
+    position: relative;
+    min-height: 100%;
+}
+
+#video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+/* Logo */
+
+.logo{
+    text-align: center;
+    margin: 30px 0px;
+    order: 2;
+}
+
+/* Menu */
+.main-menu{
+    text-transform: uppercase;
+    position: fixed;
+    order: 1;
+}
+.main-menu li{
+    margin: 10px 0px;
+}
+.main-menu ul li a{
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+/* Social Media */
+.social-media{
+    order:3;
+}
+
