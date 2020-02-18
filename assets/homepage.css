@@ -22,6 +22,7 @@
 .banner-home{
     position: relative;
     min-height: 100%;
+    padding-bottom: 50px;
 }
 
 #video {
@@ -38,25 +39,45 @@
 .logo{
     text-align: center;
     margin: 30px 0px;
-    order: 2;
+    width: 100%;
 }
 
 /* Menu */
 .main-menu{
     text-transform: uppercase;
-    position: fixed;
-    order: 1;
+    text-align: center;
+    justify-content: center;
+}
+.main-menu ul {
+    padding-top: 10px;
 }
 .main-menu li{
-    margin: 10px 0px;
+    margin: 0px 0px 10px 0px;
 }
 .main-menu ul li a{
     color: #FFFFFF;
     font-size: 1em;
 }
+.main-menu .navbar-collapse{
+    margin: 20px 0px;
+}
 
 /* Social Media */
 .social-media{
-    order:3;
+    margin-top: 30px;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-social{
+    text-align: center;
+    background-color: #fff;
+    height: 26px;
+    border-radius: 100%;
+    width: 26px;
+    margin: 0px 8px;
 }
 

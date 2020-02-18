@@ -6,14 +6,50 @@
 @media (min-width: 992px) {
 
 
- }
+}
 
 
 @media (min-width: 1200px) {
-
     /*Banner homepage */
     .banner-home{
         height: 977px;
+    }
+
+    /* Logo */
+    .logo{
+        text-align: left;
+        margin: 37px 50px 30px 50px;
+        width: auto;
+    }
+
+    /* Main menu */
+    .main-menu{
+        padding:0px;
+    }
+    .main-menu ul {
+        padding-top: 0px;
+    }
+    .main-menu li {
+        margin: 37px 30px 10px 0px;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* Logo */
+    .logo{
+        text-align: left;
+        margin: 37px 0px 30px 100px;
+        width: auto;
+    }
+
+    /* Main menu */
+    .main-menu li {
+        margin: 27px 30px 10px 0px;
+    }
+
+    /* Social Media */
+    .social-media{
+        margin-top: 10px;
     }
 }
 
