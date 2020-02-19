@@ -93,6 +93,7 @@
     margin: 0px 8px;
 }
 
+/* --------------------- First Section --------------------- */
 /* Main Text */
 .text-header{
     display: flex;
@@ -135,7 +136,7 @@
     display: none;
 }
 
-/* --- Second section --- */
+/* --------------------- Second Section --------------------- */
 .second-section{
     background: transparent linear-gradient(141deg, rgb(0,138,229,0.8) 0%, rgb(3,45,147,0.8) 100%) 0% 0% no-repeat padding-box;
 }
@@ -211,5 +212,51 @@
     text-transform: uppercase;
 }
 
+/* Accordion business stand */
+.accordionBusiness{
+    margin-top: 60px;
+}
+.card-business{
+    display: flex;
+    flex-direction: column;
+}
+
+.accordionBusiness .links-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.accordionBusiness ul li{
+    position: relative;
+    max-width: 200px;
+    list-style: none;
+    margin: 10px auto;
+}
+
+.accordionBusiness  ul li a span{
+    margin: auto;
+}
+
+.accordionBusiness .contenu-texte{
+    display: none;
+}
+
+.accordionBusiness .active{
+    background: none;
+    display: inline-block;
+}
+
+.accordionBusiness .links{
+    display: block!important;
+}
+
+.accordionBusiness ul li a{
+    width: 100%;
+    height: 100%;
+    display: flex!important;
+    flex-direction: column;
+    z-index: 2;
+    color: #fff;
+}
 
 

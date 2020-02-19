@@ -96,6 +96,20 @@
     .title-stand h2:nth-child(2){
         font-size: 96px;
     }
+
+    /* Accordion business stand */
+    .card-business{
+        flex-direction: row;
+    }
+    .card-header{
+        height: 150px;
+    }
+    .card-body{
+        margin:0px;
+    }
+    #accordionBusiness button{
+        width: 524px;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -152,4 +166,3 @@
     }
 
 }
-
