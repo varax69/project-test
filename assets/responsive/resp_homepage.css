@@ -81,6 +81,21 @@
     .main-menu .navbar-collapse {
         margin:0px;
     }
+
+    
+    /*  Business Stand */
+    .title-stand{
+        text-align: left;
+    }
+    .title-stand h2{
+  
+    }
+    .title-stand h2:first-child{
+        font-size: 68px;
+    }
+    .title-stand h2:nth-child(2){
+        font-size: 96px;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -128,8 +143,9 @@
         max-width: 150px;
         display: inline-block;
         position: absolute;
-        right: 175px;
+        right: -150px;
         top: 70px;    
+        margin: 20px auto;
     }
     .news a{
         display: flex;

@@ -140,6 +140,7 @@
     background: transparent linear-gradient(141deg, rgb(0,138,229,0.8) 0%, rgb(3,45,147,0.8) 100%) 0% 0% no-repeat padding-box;
 }
 
+/* Blocks solutions */
 .card{
     max-width: 580px;
     border: none;
@@ -169,7 +170,7 @@
 }
 .news {
     text-align: center;
-    margin: 20px auto;
+    margin: 60px auto 20px auto;
 }
 .news a {
     color: #0ACCB2;
@@ -191,5 +192,24 @@
 .news #arrowR .fa-chevron-right{
     margin: auto;
 }
+
+/*  Business Stand */
+.container-body{
+    max-width: 1250px;
+}
+
+.business-stand {
+    margin-top: 60px;
+}
+.title-stand{
+    text-align: center;
+}
+.title-stand h2{
+    color:#001954;
+    opacity: 0.6;
+    font-family: verlag-bold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
 
 
