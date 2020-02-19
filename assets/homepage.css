@@ -152,6 +152,7 @@
     color: #fff;
     font-family: verlag-bold, Arial, Helvetica, sans-serif;
     margin: 30px 0px 0px 15px;
+    max-width: 325px;
 }
 .card-text{
     font-family: verlag-book, Arial, Helvetica, sans-serif;
@@ -165,6 +166,30 @@
 }
 .card-link{
     color:#0ACCB2;
+}
+.news {
+    text-align: center;
+    margin: 20px auto;
+}
+.news a {
+    color: #0ACCB2;
+    font-family: verlag-bold, Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+
+.news #arrowR {
+    border: 3px solid #0ACCB2;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.news #arrowR .fa-chevron-right{
+    margin: auto;
 }
 
 

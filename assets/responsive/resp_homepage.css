@@ -40,12 +40,11 @@
         border: 3px solid #fff;
         border-radius: 50%;
         display: flex;
-        align-items: center;
-        justify-content: center;
         color: #fff;
     }
     #arrowD .fa-chevron-down{
         font-size: 1.05em;
+        margin: auto;
     }
 }
 
@@ -108,13 +107,33 @@
     /* Solutions Blocs Second Section */
     .solutions {
         justify-content: center;
-    }
-    .solutions .card:first-child{
-        margin-right: 60px;
+        z-index: 1;
+        position: relative;
     }
     .card{
-        margin-top: -125px;
         z-index: 1;
     }
+    .solutions .card:first-child{
+        margin: -125px 60px 0px 0px;
+    }
+    .solutions .card:nth-child(2){
+        margin: -125px 0px 0px 0px;
+    }
+
+}
+
+@media (min-width: 1880px) {
+    .news{
+        margin: 0px;
+        max-width: 150px;
+        display: inline-block;
+        position: absolute;
+        right: 175px;
+        top: 70px;    
+    }
+    .news a{
+        display: flex;
+    }
+
 }
 
