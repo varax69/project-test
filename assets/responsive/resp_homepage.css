@@ -146,6 +146,7 @@
     }
     .accordionBusiness .business-text{
         width: 580px;
+        padding-left: 41px;
     }
     .accordionBusiness ul li {
         max-width: 100%;
@@ -161,6 +162,7 @@
     }
     .accordionBusiness .links {
         margin-right: 88px;
+        padding-left: 36px;
     }    
 
     /* Third section picture with text */
