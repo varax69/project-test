@@ -51,6 +51,20 @@
     .accordionBusiness .card{
         width: 100%;
     }
+
+    /* First row number */
+    p#compteur {
+        display: block;
+        color: #F3F3F3;
+        font-size: 444px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-family: verlag-bold, Arial, Helvetica, sans-serif;
+        left: -30px;
+        top: -180px;
+        z-index: -1;
+    }
 }
 
 
@@ -129,6 +143,11 @@
     .accordionBusiness .links {
         margin-right: 88px;
     }    
+
+    /* Third section picture with text */
+    .first-row-pict .group-text {
+        margin: auto 0px auto 170px;
+    }
 }
 
 @media (min-width: 1400px) {
