@@ -1,18 +1,9 @@
-/*Banner homepage */
-.first-section{
-    
-    /* z-index: 1;
-    top: 1080px;
-    left: 0px;
-    width: 1920px;
-    height: 1180px;
-    background: transparent linear-gradient(141deg, #008AE5 0%, #032D93 100%) 0% 0% no-repeat padding-box;
-    opacity: 0.4; */
+/* --------------------- HEADER --------------------- */
 
-}
-
+/* --- Banner homepage --- */
 .container{
     max-width: 100%;
+    
 }
 
 .nav-header{
@@ -20,11 +11,22 @@
 }
 
 .banner-home{
+    z-index: 3;
     position: relative;
     min-height: 100%;
     padding-bottom: 50px;
+    
 }
 
+/* video */
+.video-background{
+    background: rgb(3,45,147,0.9);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 1200px;
+}
 #video {
     position: absolute;
     right: 0;
@@ -35,11 +37,14 @@
   }
 
 /* Logo */
-
 .logo{
     text-align: center;
     margin: 30px 0px;
     width: 100%;
+}
+.logo img{
+    width: 177px;
+    height: 39px;
 }
 
 /* Menu */
@@ -47,12 +52,14 @@
     text-transform: uppercase;
     text-align: center;
     justify-content: center;
+    
 }
 .main-menu ul {
     padding-top: 10px;
 }
 .main-menu li{
     margin: 0px 0px 10px 0px;
+    font-family: verlag-book, Arial, Helvetica, sans-serif;
 }
 .main-menu ul li a{
     color: #FFFFFF;
@@ -64,12 +71,12 @@
 
 /* Social Media */
 .social-media{
-    margin-top: 30px;
     text-align: right;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .logo-social{
@@ -79,5 +86,40 @@
     border-radius: 100%;
     width: 26px;
     margin: 0px 8px;
+    color:rgb(3,45,147);
+}
+
+/* Main Text */
+.text-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30PX;
+    color: #fff;
+}
+.text-header img{
+    display:none;
+}
+.main-title {
+    position: relative;
+}
+.main-title h1{
+    z-index: 1;
+    font-family: verlag-book, Arial, Helvetica, sans-serif;
+}
+.main-title h1:before {
+    content: "";
+    display: block;
+    width: 558px;
+    height: 17px;
+    position: absolute;
+    bottom: 7px;
+    background-color: #0ACCB2;
+    z-index: -1;
+}
+
+/* test */
+.test{
+    background: transparent linear-gradient(141deg, rgb(0,138,229,0.8) 0%, rgb(3,45,147,0.8) 100%) 0% 0% no-repeat padding-box;
 }
 

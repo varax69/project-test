@@ -4,8 +4,28 @@
 }
 
 @media (min-width: 992px) {
+    /* Main Menu */
+    .main-menu li {
+        margin: 0px 20px 10px 0px;
+    }
 
+    /* Social Media */
+    .social-media{
+        margin-top: 0px;
+    }
 
+    /* Main Text */
+    .text-header {
+        display: flex;
+        margin-top: 320px;
+        justify-content: center;
+    }
+    .text-header img{
+        display:block;
+    }
+    .main-title{
+        margin-top: 25px;
+    }
 }
 
 
@@ -24,13 +44,17 @@
 
     /* Main menu */
     .main-menu{
-        padding:0px;
+        padding:0px; 
+        float: right;
     }
     .main-menu ul {
         padding-top: 0px;
     }
     .main-menu li {
         margin: 37px 30px 10px 0px;
+    }
+    .main-menu .navbar-collapse {
+        margin:0px;
     }
 }
 
@@ -45,6 +69,9 @@
     /* Main menu */
     .main-menu li {
         margin: 27px 30px 10px 0px;
+    }
+    .main-menu .navbar-collapse {
+        margin: 22px -55px 0px 0px;
     }
 
     /* Social Media */

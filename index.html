@@ -15,6 +15,7 @@
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 <!-- Css links -->
+<link href="assets/fonts.css" rel="stylesheet">
 <link href="assets/homepage.css" rel="stylesheet">
 <link href="assets/responsive/resp_homepage.css" rel="stylesheet">
 <!-- <link href="assets/responsive/responsive_index.css" rel="stylesheet"> -->
@@ -27,54 +28,65 @@
 <header>
 	<section>
 		<div class="first-section">
+			<!-- The video -->
+			<div class="video-background"></div>
+			<video autoplay muted loop id="video">
+				<source src="assets/video/banner_video.mp4" type="video/mp4">
+			</video>
 			<div class="banner-home">
-				<!-- The video -->
-				<video autoplay muted loop id="video">
-					<source src="assets/video/banner_video.mp4" type="video/mp4">
-				</video>
 				<div class="container">
-				<div class="row nav-header">
-					<!-- logo -->
-					<div class="content logo img-fluid col-sm-12 col-md-12  col-xl-2">
-						<a href="/homepage"> <img src="assets/img/logo-start-white.png" alt="Sartup Luxembourg"></a>
+					<div class="row nav-header">
+						<!-- logo -->
+						<div class="content logo img-fluid col-sm-12 col-md-12 col-xl-2">
+							<a href="/homepage"> <img src="assets/img/logo-start-white.png" alt="Sartup Luxembourg"></a>
+						</div>
+						<!-- Menu -->
+						<div class="col-sm-6 col-md-6 col-lg-10 col-xl-7">
+							<nav class="main-menu navbar navbar-expand-lg navbar-light">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+									<ul class="navbar-nav mr-auto">
+										<li class="nav-item active">
+										<a href="#">Startup Journey</a>
+										</li>
+										<li class="nav-item">
+										<a href="#">Our Startup Ecosystem</a>
+										</li>
+										<li class="nav-item">
+											<a href="#">Dedicated programmes & events</a>
+										</li>
+										<li class="nav-item">
+											<a href="#">About</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+						<!-- Social media -->
+						<div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 social-media">
+							<a href="#" class="facebook"><div class="logo-social"><i class="fa fa-facebook"></i></div></a>
+							<a href="#" class="linkedin"><div class="logo-social"><i class="fa fa-linkedin"></i></div></a>
+							<a href="#" class="twitter"><div class="logo-social"><i class="fa fa-twitter"></i></div></a>
+						</div>
 					</div>
-					<!-- Menu -->
-					<div class="col-sm-6 col-md-6 col-lg-10 col-xl-7">
-						<nav class="main-menu navbar navbar-expand-lg navbar-light">
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-							</button>
-						
-							<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav mr-auto">
-								<li class="nav-item active">
-								<a href="#">Startup Journey</a>
-								</li>
-								<li class="nav-item">
-								<a href="#">Our Startup Ecosystem</a>
-								</li>
-								<li class="nav-item">
-									<a href="#">Dedicated programmes & events</a>
-								</li>
-								<li class="nav-item">
-									<a href="#">About</a>
-								</li>
-							</ul>
-							</div>
-						</nav>
-					</div>
-					<!-- Social media -->
-					<div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 social-media">
-						<a href="#" class="facebook"><div class="logo-social"><i class="fa fa-facebook"></i></div></a>
-						<a href="#" class="linkedin"><div class="logo-social"><i class="fa fa-linkedin"></i></div></a>
-						<a href="#" class="twitter"><div class="logo-social"><i class="fa fa-twitter"></i></div></a>
+					<!-- Main Part of the banner -->
+					<div class="row text-header">
+						<div class="main-logo">
+							<a href="/homepage"> <img src="assets/img/logo-start-white.png" alt="Sartup Luxembourg"></a>
+						</div>
+						<div class="main-title">
+							<h1>Grow from the heart of Europe</h1>
+						</div>
 					</div>
 				</div>
-				
 			</div>
 			</div>
 		</div>
 	</section>
+
+
 
 
 </header>
