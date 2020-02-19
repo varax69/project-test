@@ -220,19 +220,16 @@
     display: flex;
     flex-direction: column;
 }
-
 .accordionBusiness .links-block{
     display: flex;
     flex-wrap: wrap;
 }
-
 .accordionBusiness ul li{
     position: relative;
     max-width: 200px;
     list-style: none;
     margin: 10px auto;
 }
-
 .accordionBusiness  ul li a span{
     background-color: #0ACCB2;
     border-radius: 50%;
@@ -245,20 +242,19 @@
     position: absolute;
     left: -60px;
 }
-
-.accordionBusiness .contenu-texte{
+.accordionBusiness .business-text {
     display: none;
 }
-
+.accordionBusiness .links-block li:first-child{
+    padding-right: 16px;
+}
 .accordionBusiness .active{
     background: none;
     display: inline-block;
 }
-
 .accordionBusiness .links{
     display: block!important;
 }
-
 .accordionBusiness ul li a{
     width: 100%;
     height: 100%;
@@ -267,15 +263,17 @@
     z-index: 2;
     color: #fff;
 }
-
 .accordionBusiness ul li a:hover{
     text-decoration: none;
 }
-
 .accordionBusiness ul li a h3, .accordionBusiness ul li a h4{
     z-index: 2;
+    max-width: max-content;
+    position: relative;
 }
-
+.accordionBusiness ul li a h4{
+    font-family: verlag-book, Arial, Helvetica, sans-serif;
+}
 .accordionBusiness ul li a h4:before{
     content: "";
     display: block;
@@ -287,8 +285,8 @@
     z-index: -1;
     transition: width 1s;
 }
-
-.accordionBusiness ul li:hover a h4:before, .accordionBusiness ul li:active a h4:before, .accordionBusiness ul li:focus a h4:before{
+.accordionBusiness ul li:hover a h4:before, .accordionBusiness ul li:focus a h4:before{
     width: 100%;
 }
+
 
