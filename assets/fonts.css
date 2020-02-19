@@ -2,3 +2,8 @@
     font-family: verlag-book;
     src: url('./fonts/verlag-book.otf');
 }
+
+@font-face {
+    font-family: verlag-bold;
+    src: url('./fonts/verlag-bold.otf');
+}

@@ -140,8 +140,31 @@
     background: transparent linear-gradient(141deg, rgb(0,138,229,0.8) 0%, rgb(3,45,147,0.8) 100%) 0% 0% no-repeat padding-box;
 }
 
-/* test */
-.test{
-    background: transparent linear-gradient(141deg, rgb(0,138,229,0.8) 0%, rgb(3,45,147,0.8) 100%) 0% 0% no-repeat padding-box;
+.card{
+    max-width: 580px;
+    border: none;
+    background-color: #001954;
+    border-radius: 4px;
+    margin: 20px auto 0px auto;
+    box-shadow: 0px 12px 36px #0000005C;
 }
+.card-title {
+    color: #fff;
+    font-family: verlag-bold, Arial, Helvetica, sans-serif;
+    margin: 30px 0px 0px 15px;
+}
+.card-text{
+    font-family: verlag-book, Arial, Helvetica, sans-serif;
+    color:#AAAEB3;
+    font-size: 18px;
+    margin: 10px 0px 0px 15px;
+}
+.card-body{
+    padding:0px;
+    margin: 80px 0px 35px 15px;
+}
+.card-link{
+    color:#0ACCB2;
+}
+
 
