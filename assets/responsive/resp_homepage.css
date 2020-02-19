@@ -53,6 +53,9 @@
     }
 
     /* First row number */
+    .first-row-pict .group-text h3 {
+        margin-left: 80px; 
+    }
     .first-row-pict .pict{
         order:1;
     }
@@ -81,8 +84,31 @@
         top: -95px;
         z-index: -1;
     }
-    .second-row-pict .group-text {
-        margin: 120px 270px 0px auto;
+
+    /* Third row number */
+    .third-row-pict{
+        margin-top: 30px;
+    }
+    .third-row-pict .pict{
+        order:1;
+    }
+    .third-row-pict .text{
+        order:2;
+        display: flex;
+    }
+    .third-row-pict .group-text {
+        margin: auto auto auto 200px;
+        text-align: center;
+    }
+    #compteurTrois {
+        display: block;
+        color: #F3F3F3;
+        font-size: 444px;
+        position: absolute;
+        font-family: verlag-bold, Arial, Helvetica, sans-serif;
+        left: 30px;
+        top: -110px;
+        z-index: -1;
     }
 }
 
@@ -168,6 +194,12 @@
     /* Third section picture with text */
     .first-row-pict .group-text {
         margin: auto 0px auto 170px;
+        text-align: inherit;
+    }
+
+    /* Second row picture */
+    .second-row-pict .group-text {
+        margin: 120px 270px 0px auto;
     }
 }
 
