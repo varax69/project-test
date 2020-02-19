@@ -164,7 +164,7 @@
 }
 .card-body{
     padding:0px;
-    margin: 80px 0px 35px 15px;
+    margin: 80px 0px 35px 15px!important;
 }
 .card-link{
     color:#0ACCB2;
@@ -234,7 +234,16 @@
 }
 
 .accordionBusiness  ul li a span{
-    margin: auto;
+    background-color: #0ACCB2;
+    border-radius: 50%;
+    width: 66px;
+    font-size: 2.3em;
+    text-align: center;
+    height: 66px;
+    font-family: verlag-bold, Arial, Helvetica, sans-serif;
+    padding-top: 3px;
+    position: absolute;
+    left: -60px;
 }
 
 .accordionBusiness .contenu-texte{
@@ -259,4 +268,27 @@
     color: #fff;
 }
 
+.accordionBusiness ul li a:hover{
+    text-decoration: none;
+}
+
+.accordionBusiness ul li a h3, .accordionBusiness ul li a h4{
+    z-index: 2;
+}
+
+.accordionBusiness ul li a h4:before{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 17px;
+    position: absolute;
+    bottom: 7px;
+    background-color: #0ACCB2;
+    z-index: -1;
+    transition: width 1s;
+}
+
+.accordionBusiness ul li:hover a h4:before, .accordionBusiness ul li:active a h4:before, .accordionBusiness ul li:focus a h4:before{
+    width: 100%;
+}
 
