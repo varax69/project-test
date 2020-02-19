@@ -138,11 +138,16 @@
 
 /* --------------------- Second Section --------------------- */
 .second-section{
-    background: transparent linear-gradient(141deg, rgb(0,138,229,0.8) 0%, rgb(3,45,147,0.8) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(141deg, rgb(0,138,229) 0%, rgb(3,45,147) 100%) 0% 0% no-repeat padding-box;
 }
-
+.background-second-section{
+    background-image: url('img/nation-branding-down-rotate.png');
+    background-position-y: 475%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 /* Blocks solutions */
-.card{
+.solutions .card{
     max-width: 580px;
     border: none;
     background-color: #001954;
@@ -150,23 +155,23 @@
     margin: 20px auto 0px auto;
     box-shadow: 0px 12px 36px #0000005C;
 }
-.card-title {
+.solutions .card-title {
     color: #fff;
     font-family: verlag-bold, Arial, Helvetica, sans-serif;
     margin: 30px 0px 0px 15px;
     max-width: 325px;
 }
-.card-text{
+.solutions .card-text{
     font-family: verlag-book, Arial, Helvetica, sans-serif;
     color:#AAAEB3;
     font-size: 18px;
     margin: 10px 0px 0px 15px;
 }
-.card-body{
+.solutions .card-body{
     padding:0px;
     margin: 80px 0px 35px 15px!important;
 }
-.card-link{
+.solutions .card-link{
     color:#0ACCB2;
 }
 .news {
@@ -214,7 +219,7 @@
 
 /* Accordion business stand */
 .accordionBusiness{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .card-business{
     display: flex;
@@ -223,12 +228,13 @@
 .accordionBusiness .links-block{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .accordionBusiness ul li{
     position: relative;
     max-width: 200px;
     list-style: none;
-    margin: 10px auto;
+    margin: 10px 50px;
 }
 .accordionBusiness  ul li a span{
     background-color: #0ACCB2;
@@ -240,10 +246,29 @@
     font-family: verlag-bold, Arial, Helvetica, sans-serif;
     padding-top: 3px;
     position: absolute;
-    left: -60px;
+    left: -54px;
 }
 .accordionBusiness .business-text {
     display: none;
+    width: 100%;
+}
+.accordionBusiness .business-text .card{
+    margin: auto;
+    background: transparent;
+    border: none;
+}
+.accordionBusiness .business-text .card img:first-child{
+    margin-bottom: 60px;
+}
+.accordionBusiness .pict {
+    max-width: 260px;
+    margin: auto;
+    padding: 0;
+}
+.accordionBusiness .business-text .card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 .accordionBusiness .links-block li:first-child{
     padding-right: 16px;
@@ -287,6 +312,24 @@
 }
 .accordionBusiness ul li:hover a h4:before, .accordionBusiness ul li:focus a h4:before{
     width: 100%;
+}
+.business-text h5{
+    font-family: verlag-book, Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+}
+.business-text .card-body{
+    padding: 0px;
+}
+.business-text .card-text{
+    color: #fff;
+    font-size: 22px;
+    max-width: 580px;
+    text-align: center;
+    font-family: verlag-book, Arial, Helvetica, sans-serif;
+    margin: auto;
 }
 
 
