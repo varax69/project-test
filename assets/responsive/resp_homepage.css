@@ -53,7 +53,13 @@
     }
 
     /* First row number */
-    #compteur {
+    .first-row-pict .pict{
+        order:1;
+    }
+    .first-row-pict .text{
+        order:2;
+    }
+    #compteurUn {
         display: block;
         color: #F3F3F3;
         font-size: 444px;
@@ -62,6 +68,21 @@
         left: -30px;
         top: -110px;
         z-index: -1;
+    }
+
+    /* Second row number */
+    #compteurDeux {
+        display: block;
+        color: #F3F3F3;
+        font-size: 444px;
+        position: absolute;
+        font-family: verlag-bold, Arial, Helvetica, sans-serif;
+        left: 80px;
+        top: -95px;
+        z-index: -1;
+    }
+    .second-row-pict .group-text {
+        margin: 120px 270px 0px auto;
     }
 }
 

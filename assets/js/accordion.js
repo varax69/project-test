@@ -12,8 +12,8 @@ $(function() {
         $li.siblings('.active').removeClass('active')
         $li.addClass('active')
 
-        $target.siblings().fadeOut(010, function(){
-            $target.fadeIn(100)
+        $target.siblings().fadeOut(00, function(){
+            $target.fadeIn(900);
         })
 
         $(window).on("resize",function(){  
