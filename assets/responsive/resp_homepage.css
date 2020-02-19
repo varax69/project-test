@@ -4,6 +4,10 @@
 }
 
 @media (min-width: 992px) {
+    /* video */
+    .video-background{
+        height: 977px;
+    }
     /* Main Menu */
     .main-menu li {
         margin: 0px 20px 10px 0px;
@@ -25,6 +29,27 @@
     }
     .main-title{
         margin-top: 25px;
+    }
+
+    /* Arrow Down */
+    .arrow-Down {
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    #arrowD {
+        width: 57px;
+        height: 57px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    #arrowD .fa-chevron-down{
+        font-size: 1.05em;
     }
 }
 

@@ -6,6 +6,6 @@ $(function() {
         }
     });
     }
-    scrollTo( $("#test") );
+    scrollTo( $(".solutions") );
 });
 
