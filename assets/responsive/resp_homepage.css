@@ -4,10 +4,6 @@
 }
 
 @media (min-width: 992px) {
-    /* video */
-    .video-background{
-        height: 977px;
-    }
     /* Main Menu */
     .main-menu li {
         margin: 0px 20px 10px 0px;
@@ -57,7 +53,12 @@
 @media (min-width: 1200px) {
     /*Banner homepage */
     .banner-home{
-        height: 977px;
+        height: 1080px;
+    }
+
+    /* video */
+    .video-background{
+        height: 1080px;
     }
 
     /* Logo */
@@ -102,6 +103,18 @@
     /* Social Media */
     .social-media{
         margin-top: 10px;
+    }
+
+    /* Solutions Blocs Second Section */
+    .solutions {
+        justify-content: center;
+    }
+    .solutions .card:first-child{
+        margin-right: 60px;
+    }
+    .card{
+        margin-top: -125px;
+        z-index: 1;
     }
 }
 
