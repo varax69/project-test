@@ -6,7 +6,7 @@ $(function() {
         }
     });
     }
-    scrollTo( $(".solutions") );
+    scrollTo( $(".card") );
 });
 
 

@@ -53,16 +53,14 @@
     }
 
     /* First row number */
-    p#compteur {
+    #compteur {
         display: block;
         color: #F3F3F3;
         font-size: 444px;
         position: absolute;
-        left: 0;
-        top: 0;
         font-family: verlag-bold, Arial, Helvetica, sans-serif;
         left: -30px;
-        top: -180px;
+        top: -110px;
         z-index: -1;
     }
 }
